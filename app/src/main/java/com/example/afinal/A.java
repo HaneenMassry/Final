@@ -1,7 +1,6 @@
 package com.example.afinal;
 //git commit -a -m "massage"
 // git push -u origin main
-/////LLLL
-
+/////Loooooo
 public class A {
 }
