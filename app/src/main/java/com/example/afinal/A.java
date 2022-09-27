@@ -1,5 +1,6 @@
 package com.example.afinal;
-//git push -u origin main
+//git commit -a -m "massage"
+// git push -u origin main
 /////
 ////jhlhjkjk
 public class A {
