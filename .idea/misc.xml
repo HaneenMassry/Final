@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Final/app/src/main/res/drawable/ic_email.xml" value="0.1" />
         <entry key="..\:/Final/app/src/main/res/drawable/ic_launcher_background.xml" value="0.121" />
+        <entry key="..\:/Final/app/src/main/res/drawable/ic_lock.xml" value="0.1" />
         <entry key="..\:/Final/app/src/main/res/layout/activity_show.xml" value="0.10989583333333333" />
         <entry key="..\:/Final/app/src/main/res/layout/activity_start.xml" value="0.264" />
-        <entry key="..\:/Final/app/src/main/res/layout/activity_video.xml" value="0.264" />
+        <entry key="..\:/Final/app/src/main/res/layout/activity_video.xml" value="0.2147887323943662" />
+        <entry key="..\:/Final/app/src/main/res/layout/emailpass.xml" value="0.1" />
         <entry key="..\:/Users/hanee/AndroidStudioProjects/Final/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/hanee/AndroidStudioProjects/Final/app/src/main/res/layout/activity_show.xml" value="0.10099637681159421" />
         <entry key="..\:/Users/hanee/AndroidStudioProjects/Final/app/src/main/res/layout/activity_start.xml" value="0.25" />
