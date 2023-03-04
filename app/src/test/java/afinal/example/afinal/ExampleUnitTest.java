@@ -1,4 +1,4 @@
-package com.example.afinal;
+package afinal.example.afinal;
 
 import org.junit.Test;
 

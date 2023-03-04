@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ActivityVideo">
+    tools:context="afinal.example.afinal.ActivityStart$ActivityVideo">
 
     <VideoView
         android:id="@+id/videoView"
@@ -52,7 +52,7 @@
         android:layout_width="match_parent"
 
         android:layout_height="wrap_content"
-        android:background="#3F4FB5"
+        android:background="#DF03A9F4"
         app:layout_constraintBottom_toTopOf="@+id/videoView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

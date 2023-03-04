@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/register_bk_color"
+    android:focusableInTouchMode="true"
+    android:layout_gravity="center"
+    tools:context="com.appsnipp.modernlogin.com.example.afinal.ActivityStart$RegisterActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="208dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F4F2F2"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/editTextpassword4"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="21dp"
+                android:layout_weight="1"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                app:layout_constraintStart_toEndOf="@+id/view"
+                app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+            <EditText
+                android:id="@+id/editTextpassword2"
+                android:layout_width="264dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="21dp"
+                android:layout_weight="1"
+                android:hint="Mobile"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColor="#000000"
+                app:layout_constraintStart_toEndOf="@+id/view"
+                app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+            <EditText
+                android:id="@+id/editTextpassword3"
+                android:layout_width="264dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="21dp"
+                android:layout_weight="1"
+                android:hint="Email"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColor="#000000"
+                app:layout_constraintStart_toEndOf="@+id/view"
+                app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+
+            <EditText
+                android:id="@+id/editTextpassword"
+                android:layout_width="264dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="21dp"
+                android:hint="Name"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                app:layout_constraintStart_toEndOf="@+id/view"
+                app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+
+            <EditText
+                android:id="@+id/school1"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="21dp"
+                android:layout_weight="1"
+                android:hint="School"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                app:layout_constraintStart_toEndOf="@+id/view"
+                app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="3"
+                android:background="@color/whiteTextColor" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="3"
+                android:background="@color/whiteTextColor" />
+
+            <Button
+                android:id="@+id/cirRegisterButton"
+                style="@style/loginButton"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:text="Register"
+                 />
+
+            <TextView
+                style="@style/viewParent.headerText.NoMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:text="Use other Methods"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/imageFase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="148dp"
+                android:src="@drawable/ic_facebook" />
+
+            <ImageView
+                android:id="@+id/imageGmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="109dp"
+                android:layout_marginEnd="21dp"
+                android:src="@drawable/ic_google_plus"
+                app:layout_constraintEnd_toStartOf="@+id/imageFase"
+                app:layout_constraintStart_toEndOf="@+id/view"
+                app:layout_constraintTop_toBottomOf="@+id/textUseother" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="32dp"
+        android:layout_height="104dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="624dp"
+        android:adjustViewBounds="false"
+        android:onClick="onLoginClick"
+        android:src="@drawable/ic_back_img"
+        app:layout_constraintStart_toEndOf="@+id/view5"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="NotSibling,UnknownId" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/viewParent.headerText.NoMode"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="Here’s\nyour first\nstep with \nus! "
+        android:textColor="@color/whiteTextColor"
+        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_login_hero"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+

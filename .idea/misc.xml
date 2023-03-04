@@ -3,15 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Final/app/src/main/res/drawable/button_background_blue.xml" value="0.135" />
         <entry key="..\:/Final/app/src/main/res/drawable/custom_input.xml" value="0.1" />
+        <entry key="..\:/Final/app/src/main/res/drawable/ic_add_img.xml" value="0.1215" />
+        <entry key="..\:/Final/app/src/main/res/drawable/ic_back_img.xml" value="0.1" />
+        <entry key="..\:/Final/app/src/main/res/drawable/ic_baseline_not_started_24.xml" value="0.1215" />
         <entry key="..\:/Final/app/src/main/res/drawable/ic_email.xml" value="0.1" />
+        <entry key="..\:/Final/app/src/main/res/drawable/ic_facebook.xml" value="0.2555" />
+        <entry key="..\:/Final/app/src/main/res/drawable/ic_google_plus.xml" value="0.134" />
         <entry key="..\:/Final/app/src/main/res/drawable/ic_launcher_background.xml" value="0.121" />
         <entry key="..\:/Final/app/src/main/res/drawable/ic_lock.xml" value="0.1" />
-        <entry key="..\:/Final/app/src/main/res/layout/activity_show.xml" value="0.10989583333333333" />
-        <entry key="..\:/Final/app/src/main/res/layout/activity_sighnin.xml" value="0.24635416666666668" />
-        <entry key="..\:/Final/app/src/main/res/layout/activity_start.xml" value="0.264" />
+        <entry key="..\:/Final/app/src/main/res/drawable/ic_login_hero.xml" value="0.1" />
+        <entry key="..\:/Final/app/src/main/res/drawable/ic_register_hero.xml" value="0.1" />
+        <entry key="..\:/Final/app/src/main/res/drawable/ic_side_bg.xml" value="0.1215" />
+        <entry key="..\:/Final/app/src/main/res/layout/activity_course_details.xml" value="0.25" />
+        <entry key="..\:/Final/app/src/main/res/layout/activity_course_item.xml" value="0.264" />
+        <entry key="..\:/Final/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Final/app/src/main/res/layout/activity_login2.xml" value="0.25" />
+        <entry key="..\:/Final/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Final/app/src/main/res/layout/activity_main2.xml" value="0.14479166666666668" />
+        <entry key="..\:/Final/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/Final/app/src/main/res/layout/activity_show.xml" value="0.2" />
+        <entry key="..\:/Final/app/src/main/res/layout/activity_sighnin.xml" value="0.16" />
+        <entry key="..\:/Final/app/src/main/res/layout/activity_start.xml" value="0.25" />
         <entry key="..\:/Final/app/src/main/res/layout/activity_video.xml" value="0.2147887323943662" />
-        <entry key="..\:/Final/app/src/main/res/layout/emailpass.xml" value="0.264" />
+        <entry key="..\:/Final/app/src/main/res/layout/course_item.xml" value="0.264" />
+        <entry key="..\:/Final/app/src/main/res/layout/emailpass.xml" value="0.25" />
         <entry key="..\:/Users/hanee/AndroidStudioProjects/Final/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/hanee/AndroidStudioProjects/Final/app/src/main/res/layout/activity_show.xml" value="0.10099637681159421" />
         <entry key="..\:/Users/hanee/AndroidStudioProjects/Final/app/src/main/res/layout/activity_start.xml" value="0.25" />
@@ -24,5 +41,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
   </component>
 </project>

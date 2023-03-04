@@ -1,4 +1,4 @@
-package com.example.afinal;
+package afinal.example.afinal;
 
 import static android.R.layout.simple_list_item_1;
 import static android.content.ContentValues.TAG;
@@ -11,14 +11,11 @@ import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.webkit.URLUtil;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.MediaController;
 import android.widget.TextView;
@@ -31,7 +28,6 @@ import com.google.firebase.storage.StorageReference;
 
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
-import java.util.Locale;
 
 
 public class ActivityVideo extends AppCompatActivity {

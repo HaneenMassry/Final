@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Final</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="usr_other_methods">Usr Other Methods</string>
 </resources>
